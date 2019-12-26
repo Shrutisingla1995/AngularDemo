@@ -1,0 +1,31 @@
+.my-button{
+  background:#091cff;
+  color:white;
+  float: right;
+  margin-left: 10px;
+}
+.form-group{
+  label{
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
+  }
+  input{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #d8d6d6;
+  }
+  textarea{
+    width: 100%;
+    border: 1px solid #d8d6d6;
+    resize: none;
+  }
+}
+.mat-dialog-container{
+  position: relative;
+  .mat-icon{
+    position: absolute;
+  }
+}

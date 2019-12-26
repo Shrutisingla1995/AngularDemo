@@ -1,0 +1,13 @@
+<div class="content">
+  <h3>Create your own to do list using Angular8!</h3>
+  <input type="text" #task />
+  <button mat-button (click)="addTask(task)">Add Task</button>
+  <div *ngIf="taskList.length > 0">
+    <h4>Current Tasks:</h4>
+    <div *ngFor="let task of taskList; let i = index">
+        <div class="task-tab">{{task}}
+          <div class="close" (click)="deleteTask(task, i)">x</div>
+        </div>
+    </div>
+  </div>
+</div>

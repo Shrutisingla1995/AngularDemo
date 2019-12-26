@@ -1,0 +1,33 @@
+.header{
+  position: relative;
+  .headline{
+    color: #1c1c77;
+    text-align: center;
+  }
+  .my-button{
+    position: absolute;
+    top:0;
+    right:20px;
+    background:#091cff;
+    color:white;
+  }
+}
+.image-wrapper{
+  position: relative;
+  .header-img{
+    width:calc(100% - 40px);
+    margin:20px;
+  }
+  .default-text{
+    margin: 20px;
+    font-family: monospace;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background: #2f2a2a94;
+    padding: 20px;
+    top:0;
+    line-height: 2;
+  }
+}

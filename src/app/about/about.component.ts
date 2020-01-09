@@ -9,14 +9,14 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  dialog: MatDialogRef<DialogComponent>;
+  dialogs: MatDialogRef<DialogComponent>;
 
-  constructor(private dialog: MatDialog) { }
+  constructor(private dialogs: MatDialog) { }
 
   ngOnInit() {
   }
   openDialog() {
-    this.dialog.open(DialogComponent, {
+    this.dialogs.open(DialogComponent, {
         height: '400px',
         width: '600px',
     });

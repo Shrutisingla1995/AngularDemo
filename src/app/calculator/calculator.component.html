@@ -1,0 +1,30 @@
+<div class="calculator">
+  <div class="cal-keys">
+    <div (click)="select(1)">1</div>
+    <div (click)="select(2)">2</div>
+    <div (click)="select(3)">3</div>
+    <div (click)="select('+')">+</div>
+  </div>
+  <br />
+  <div class="cal-keys">
+    <div (click)="select(4)">4</div>
+    <div (click)="select(5)">5</div>
+    <div (click)="select(6)">6</div>
+    <div (click)="select('-')"> - </div>
+  </div>
+  <br />
+  <div class="cal-keys">
+    <div (click)="select(7)">7</div>
+    <div (click)="select(8)">8</div>
+    <div (click)="select(9)">9</div>
+    <div (click)="select('*')">x</div>
+  </div>
+  <br />
+  <div class="cal-keys">
+    <div (click)="clear()">c</div>
+    <div (click)="select(0)">0</div>
+    <div (click)="equate()">=</div>
+    <div (click)="select('/')">/</div>
+  </div>
+  <input type="text" #entered  [value]="number" />
+</div>

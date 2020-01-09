@@ -15,6 +15,7 @@ MatDialogModule,
 MatProgressSpinnerModule } from '@angular/material';
 import { DialogComponent } from './dialog/dialog.component';
 import { TasksComponent } from './tasks/tasks.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TasksComponent } from './tasks/tasks.component';
     AboutComponent,
     DialogComponent,
     TasksComponent,
+    CalculatorComponent,
 
   ],
   imports: [

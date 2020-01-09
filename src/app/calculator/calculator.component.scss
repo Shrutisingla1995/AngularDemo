@@ -1,0 +1,28 @@
+.calculator{
+  margin: 20px;
+  .cal-keys{
+    display: inline-flex;
+    div{
+      border: 1px solid grey;
+      width:50px;
+      height:50px;
+      margin: 6px;
+      background: #3f51b575;
+      color: black;
+      cursor: pointer;
+      text-align: center;
+      line-height: 3;
+      &:hover{
+        background: white;
+        color:blue;
+        border: 1px solid blue;
+      }
+    }
+  }
+  input{
+    margin: 5px 5px;
+    height: 35px;
+    width: 240px;
+    display: block;
+  }
+}
